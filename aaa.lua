@@ -1,3 +1,4 @@
+local robuxButton = LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("DialogApp"):WaitForChild("Dialog"):WaitForChild("RobuxProductDialog"):WaitForChild("Buttons"):WaitForChild("ButtonTemplate")
 function pressRbx()
     if robuxButton then
         for _, signal in ipairs(Signals) do
