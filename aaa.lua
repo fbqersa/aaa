@@ -1,3 +1,5 @@
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
 local robuxButton = LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("DialogApp"):WaitForChild("Dialog"):WaitForChild("RobuxProductDialog"):WaitForChild("Buttons"):WaitForChild("ButtonTemplate")
 function pressRbx()
     if robuxButton then
