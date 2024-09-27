@@ -12,4 +12,3 @@ function pressRbx()
     print("Robux Button ✅")
     task.wait(5)
   end
-pressRbx()
