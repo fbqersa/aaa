@@ -1,3 +1,5 @@
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
 local LocalPlayer = Players.LocalPlayer
 local Signals = {"Activated", "MouseButton1Down", "MouseButton1Click"}
 local robuxButton = LocalPlayer:WaitForChild("PlayerGui"):WaitForChild("DialogApp"):WaitForChild("Dialog"):WaitForChild("RobuxProductDialog"):WaitForChild("Buttons"):WaitForChild("ButtonTemplate")
